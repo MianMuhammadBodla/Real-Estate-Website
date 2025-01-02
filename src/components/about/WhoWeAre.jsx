@@ -22,7 +22,7 @@ function WhoWeAre() {
                   Who We Are
                 </h2>
                 <p className="text-gray">
-                  New Capital is a real estate consultancy company proudly
+                  Ravian Real Estate is a real estate consultancy company proudly
                   serving thousands of satisfied clients and partnering with the
                   top real estate developers in Egypt.
                 </p>
