@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
 import { footerIcons, headerData } from "../data/data";
+import {
+  FaFacebookSquare,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 
 import Button from "./Button";
 import Container from "./Container";
@@ -41,13 +47,13 @@ function Footer() {
                 Follow Us
               </h2>
 
-              <div className="flex items-center gap-[10px]">
+<div className="flex items-center gap-[10px]">
                 {footerIcons.map((el) => {
                   const Icon = el.icon;
                   return (
                     <Link
-                      key={el.id}
-                      to={"https://www.linkedin.com/in/"}
+                      key={el.id[1]}
+                      to={el.url}
                       target="_blank">
                       <Icon className="text-2xl hover:text-primary" />
                     </Link>
@@ -69,7 +75,7 @@ function Footer() {
       <div className="bg-lightGray text-gray py-[30px]">
         <Container>
           <p className="sm:text-base text-sm">
-            © {currentYear} New Capital. All Rights Reserved.
+            © {currentYear} Ravian Real Estate. All Rights Reserved.
           </p>
         </Container>
       </div>

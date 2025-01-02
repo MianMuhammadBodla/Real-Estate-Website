@@ -198,11 +198,12 @@ export const aboutUsData = [
 ];
 
 export const footerIcons = [
-  { id: 1, icon: FaFacebookSquare },
-  { id: 2, icon: FaInstagram },
-  { id: 3, icon: FaLinkedin },
-  { id: 4, icon: FaTwitter },
+  { id: 1, icon: FaFacebookSquare, url: 'https://www.facebook.com/' },
+  { id: 2, icon: FaInstagram, url: 'https://www.instagram.com/' },
+  { id: 3, icon: FaLinkedin, url: 'https://www.linkedin.com/' },
+  { id: 4, icon: FaTwitter, url: 'https://www.twitter.com/' },
 ];
+
 
 export const formData = [
   {
