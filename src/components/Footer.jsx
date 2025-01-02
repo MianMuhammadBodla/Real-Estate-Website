@@ -30,7 +30,7 @@ function Footer() {
                 Who we are?
               </h2>
               <p className="text-gray text-sm">
-                New Capital is a real estate consultancy company proudly serving
+                Ravian Real Estate is a real estate consultancy company proudly serving
                 thousands of satisfied clients and partnering with the top real
                 estate developers in Egypt.
               </p>
