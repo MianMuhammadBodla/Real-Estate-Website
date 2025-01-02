@@ -11,7 +11,7 @@ function Home() {
       <ClientTestimonials />
       <ProjectsSection />
       <AboutUs />
-      <RequestCallback />
+      {/* <RequestCallback /> */}
     </div>
   );
 }

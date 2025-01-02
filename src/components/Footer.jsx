@@ -47,7 +47,7 @@ function Footer() {
                   return (
                     <Link
                       key={el.id}
-                      to={"https://www.linkedin.com/in/the-mustafa-khaled/"}
+                      to={"https://www.linkedin.com/in/"}
                       target="_blank">
                       <Icon className="text-2xl hover:text-primary" />
                     </Link>
@@ -56,12 +56,12 @@ function Footer() {
               </div>
             </div>
 
-            <div className="w-[100%] py-[10px]">
+            {/* <div className="w-[100%] py-[10px]">
               <h2 className="text-xl uppercase font-bold mb-[20px]">
                 Follow Us
               </h2>
               <Button>Request A Callback</Button>
-            </div>
+            </div> */}
           </div>
         </Container>
       </div>

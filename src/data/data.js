@@ -234,9 +234,9 @@ export const formData = [
 ];
 
 export const contactInfoData = [
-  { id: 1, title: "+20 1151747091", image: phone },
-  { id: 2, title: "mustafakhaledinfo@gmail.com", image: email },
-  { id: 3, title: "Cairo, Egypt", image: location },
+  { id: 1, title: "+92 3006977445", image: phone },
+  { id: 2, title: "ravianrealestate@gmail.com", image: email },
+  { id: 3, title: "Central Lake City Lahore, Pakistan", image: location },
 ];
 
 export const villaData = [
